@@ -1,0 +1,29 @@
+body {
+  font: 400 16px/1.4 'serif';
+  }
+  #fieldset {
+    margin: 2px auto 15px;
+
+    text-align: center;
+  }
+  #editor1 {
+    border: 1px inset grey;
+    height: 1300px;
+    width: 1000px;
+    margin: 10px auto 0;
+   }
+   button {
+     width: 7ex;
+     text-align: center;
+     padding: 1px 3px;
+   }
+   #select {
+     width: 7ex;
+     text-align: center;
+     padding: 1px 3px;
+   }
+   #select2 {
+     width: 12ex;
+     text-align: center;
+     padding: 1px 3px;
+   }

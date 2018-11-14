@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+
+  <title>editeur de texte</title>
+
+
+
+  <style>
+
+
+
+
+  </style>
+</head>
+
+<body>
+
+
+  <fieldset id="fieldset">
+    <button class="fontStyle" onclick="document.execCommand('italic',false,null);"
+     title="Italicize Highlighted Text"><i>I</i>
+    </button>
+    <button class="fontStyle" onclick="document.execCommand( 'bold',false,null);"
+    title="Bold Highlighted Text"><b>B</b>
+    </button>
+    <button  class="fontStyle" onclick="document.execCommand( 'underline',false,null);"
+    ><u>U</u>
+    </button>
+
+
+      <select id="select" onclick="fontFunction30()">
+        <option value="1">6</option>
+        <option value="2">8</option>
+        <option value="3">10</option>
+        <option value="4">12</option>
+        <option value="5">14</option>
+      </select>
+      <select id="select2" onclick="fontFunction40()">
+        <option value="11">serif</option>
+        <option value="21">Comic Sans MS</option>
+        <option value="31">arial</option>
+        <option value="41">Georgia</option>
+        <option value="51">Fantasy</option>
+      </select>
+
+
+
+  </fieldset>
+  <div id="editor1" contenteditable="true">
+
+  </div>
+</head>
